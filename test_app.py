@@ -9,5 +9,5 @@ def client():
 
 def test_hello(client):
     response = client.get('/')
-    assert response.data == b'Hello, CI/CD with GitHub Actions!'  # Adjust this assertion based on your app's response
+    assert response.data == b'Hello,world!'  # Adjust this assertion based on your app's response
 
